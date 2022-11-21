@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+  }
+  li {
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f2f2f2;
+    border-radius: 5px;
+    background-color: #333;
+    
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    
+  }
+  
+  .header-img {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(img/pet.png);
+    background-size: cover;
+  }
+  
+  .sobre {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sobreimg img {
+    width: 100%;
+    border-radius: 17%;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgb(175, 173, 170);
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
+  
+  .sobreimg {
+    
+    
+    
+}
+  
+.sobreimg:hover {
+    
+}
+  
+
+  .sobretxt {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(212, 149, 55);
+  }
+  
+  .sobretxt p {
+    margin-top: 5px;
+  }
+  
+  .borda {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 92%;
+    height: 2px;
+    background-color: #bb841f;
+  }
+  
+  .sobretxt h1 {
+    color: #eba627;
+    margin-top: 2px;
+  }
+  
+  .racas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .racastxt p {
+    margin-top: 5px;
+  }
+  
+  .racas h1 {
+    color: #eba627;
+    margin-top: 2px;
+  }
+  
+  .racastxt {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(212, 149, 55);
+    margin-bottom: 10px;
+  }
+  
+  .pai-cao {
+    overflow-x: hidden;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .cao1 {
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 2px solid rgb(48, 43, 43);
+    background-color: #f2f2f2;
+    padding: 6px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 5px black;
+  }
+  .cao1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+  }
+  .pai-cao img {
+    width: 100%;
+    border-radius: 2%;
+    justify-content: space-evenly;
+  }
+  
+  .cao1txt {
+    font-size: 0.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .bordar-cao {
+    width: 100%;
+    height: 2px;
+    background-color: #bb841f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pai-gato {
+    overflow-x: hidden;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .gato1 {
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 2px solid rgb(48, 43, 43);
+    background-color: #f2f2f2;
+    padding: 6px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 5px black;
+  }
+  
+  .gato1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+  }
+  
+  .pai-gato img {
+    width: 100%;
+    border-radius: 2%;
+    justify-content: space-evenly;
+  }
+  
+  .gato1txt {
+    font-size: 0.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .borda-gato {
+    width: 100%;
+    height: 2px;
+    background-color: #bb841f;
+    margin-top: 20px;
+  }
+  
+  .rodape {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .marca {
+    font-size: 16px;
+    color: #f2f2f2;
+  }
+  
+ 
+  
+  .yt {
+    color: white;
+    height: 20px;
+    width: 20px;
+  }
+  .ig {
+    height: 20px;
+    width: 20px;
+    color: white;
+  }
+  .fb {
+    height: 20px;
+    width: 20px;
+    color: white;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .header-img {
+      background-size: 100% 100%;
+      height: 90vh;
+      width: 100%;
+    }
+  
+    .sobreimg img {
+      width: 100%;
+      height: 60vh;
+      background-size: cover;
+    }
+  
+    .cao1 {
+      width: 20%;
+    }
+    .gato1 {
+      width: 20%;
+    }
+  
+    .cao1 img {
+      height: 300px;
+    }
+  
+    .gato1 img {
+      height: 300px;
+    }
+  
+    .rodape {
+      height: 100px;
+    }
+  
+    .ig {
+      width: 35px;
+      height: 35px;
+    }
+    .fb {
+      width: 35px;
+      height: 35px;
+    }
+    .yt {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+   
+  
+    .sobreimg img {
+      width: 90%;
+      height: 800px;
+    }
+  
+    ul {
+      width: 50%;
+    }
+  
+    .sobretxt {
+      font-size: 18px;
+    }
+  
+    .sobretxt h1 {
+      font-size: 2em;
+    }
+  
+    .racastxt h1 {
+      font-size: 2em;
+    }
+  
+    .racastxt {
+      font-size: 18px;
+    }
+  
+    .cao1 img {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .gato1 img {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .marca {
+      font-size: 18px;
+    }
+  
+    .rodape {
+      justify-content: space-around;
+    }
+  
+    .fb {
+      border-radius: 50%;
+    }
+  }
